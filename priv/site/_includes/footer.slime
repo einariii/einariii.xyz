@@ -1,0 +1,8 @@
+footer
+  p WEB
+  nav
+    ul
+      p = link @env, "&emsp;Github", to: "https://github.com/einariii"
+      p = link @env, "&emsp;LinkedIn", to: "https://linkedin.com/in/einar-engstrom-428201277"
+      p = link @env, "&emsp;Bandcamp", to: "https://pipesines.bandcamp.com"
+      

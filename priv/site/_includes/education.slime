@@ -1,0 +1,18 @@
+div
+  p.text-2xl.mb-2 EDUCATION
+  ul.list-disc.pl-6.space-y-2
+
+      div
+        text.font-semibold &emsp;dockyard academy <br />
+        text &emsp;professional certificate, elixir web developer <br />
+        text.italic &emsp;05.2023 <br /><br />
+      div
+        text.font-semibold &emsp;york university <br />
+        text &emsp;phd (abd), science and technology studies <br />
+        text &emsp;research: history and philosophy of computer music programming <br />
+        text.italic &emsp;01.2023 <br /><br />
+      div
+        text.font-semibold &emsp;waseda university <br />
+        text &emsp;ma, visual culture <br />
+        text &emsp;research: science fiction and the postphenomenology of space imaging technologies <br />
+        text.italic &emsp;07.2016 <br /><br />

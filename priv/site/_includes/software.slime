@@ -1,0 +1,13 @@
+div
+  p.text-2xl.mb-2.jost PROJECTS
+  ul.list-disc.pl-6.space-y-2
+
+  div.jost
+    text.italic &emsp;pipesines <br />
+    text &emsp;a web application that transforms elixir into a musical instrument <br />
+    text &emsp;written with elixir, phoenix liveview, ecto/postgresql, html/css<br />
+    text &emsp;interoperability with monaco editor and tone.js<br /><br />
+  div.jost
+    text.font-semibold &emsp;beamscene <br />
+    text.italic &emsp;a blog about programming languages on the BEAM <br />
+    text &emsp;written with elixir, phoenix, ecto/postgresql, tailwindcss<br /><br />

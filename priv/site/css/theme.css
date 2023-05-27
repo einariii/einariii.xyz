@@ -1,0 +1,116 @@
+:root {
+  --c-black: #e9c31b;
+  --c-white: #222;
+}
+
+a {
+  color:#e9c31b;
+}
+
+html {
+  background-color: var(--c-white);
+  font-size: 48px;
+  line-height: 1.5;
+  font-family: 'Jost';
+  color: var(--c-black);
+}
+
+.squig {
+  z-index: -1;
+  scale: 45%;
+  rotate: 180deg;
+  margin-top: -425px;
+  margin-right: -1100px;
+}
+
+.squigreal {
+  z-index: -1;
+  scale: 3%;
+}
+
+.squigbackup {
+  z-index: -1;
+  height: 700px;
+  width: 700px;
+  float: inline-start;
+  mix-blend-mode: exclusion;
+}
+
+.title {
+  font-family: 'Yellowtail';
+  text-align: left;
+  font-size: 128px;
+  position: relative;
+  white-space: pre-line;
+  margin-top: -1200px;
+}
+
+.subtitle {
+  font-family: 'Jost';
+  text-align: left;
+  font-size: 66px;
+  margin-top: -60px;
+}
+
+.subtitle2 {
+  font-family: 'Jost';
+  text-align: left;
+  font-size: 48px;
+  margin-top: -60px;
+}
+
+.main {
+  max-width: 2000px;
+  font-size: 24px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.footer {
+  position: fixed;
+  top: 60px;
+  width: -5%;
+}
+
+.ibmplex {
+  font-family: 'IBMPlexSansThai';
+}
+
+.intgo {
+  font-size: 48px;
+  display: inline-flex;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+.intgo2 {
+  font-size: 30px;
+  font-family: 'Jost';
+}
+
+.intgo3 {
+  font-size: 24px;
+  font-family: 'Jost';
+}
+
+.imgcontainer {
+  background-image: url("../images/dotgrid-23K06-054139.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.jost {
+  font-family: 'Jost';
+}
+
+.kodchasan {
+  font-family: 'Kodchasan';
+}
+
+.slackside {
+  font-family: 'Slackside One';
+}
+
+.zcool {
+  font-family: 'ZCOOL QingKe HuangYou';
+}

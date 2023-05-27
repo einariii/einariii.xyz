@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'IBMPlexSansThai';
+    src: url('../fonts/IBMPlexSansThaiLooped-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Kodchasan';
+    src: url('../fonts/Kodchasan-Regular.ttf');
+}    
+
+@font-face {
+    font-family: 'Slackside One';
+    src: url('../fonts/SlacksideOne-Regular.ttf');
+}    
+
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../fonts/Yellowtail-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ZCOOL QingKe HuangYou';
+    src: url('../fonts/ZCOOLQingKeHuangYou-Regular.ttf');
+}    
+
+.ibmplex {
+    font-family: 'IBMPlexSansThai';
+}
+
+.kodchasan {
+    font-family: 'Kodchasan';
+}
+
+.jost {
+    font-family: 'Jost';
+}
+
+.slackside {
+    font-family: 'Slackside One';
+}
+
+.yellowtail {
+    font-family: 'Yellowtail';
+}
+
+.zcool {
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+
