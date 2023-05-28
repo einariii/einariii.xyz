@@ -17,9 +17,9 @@ html {
 
 .squig {
   z-index: -1;
-  scale: 46%;
+  scale: 48%;
   rotate: 180deg;
-  margin-top: -500px;
+  margin-top: -400px;
   margin-right: -1100px;
 }
 
@@ -50,7 +50,7 @@ html {
   font-size: 128px;
   position: relative;
   white-space: pre-line;
-  margin-top: -1200px;
+  margin-top: -1270px;
 }
 
 .subtitle {
