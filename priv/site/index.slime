@@ -4,7 +4,7 @@ layout: _layout.slime
 .intgo.dela
   p 哈囉～ <p class="zcool">&ensp;h e j !</p><p class="slackside">&ensp;どうも。</p>
 <br /><br />
-h3.subtitle2 me llamo
+h3.subtitle3 me llamo
 
 .squig
   img src="../images/dotgrid-23K06-505922.png"

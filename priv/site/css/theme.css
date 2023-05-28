@@ -67,6 +67,14 @@ html {
   margin-top: -60px;
 }
 
+.subtitle3 {
+  font-family: 'Jost';
+  text-align: left;
+  font-size: 36px;
+  margin-top: -60px;
+  padding-bottom: 20px;
+}
+
 .main {
   max-width: 2000px;
   font-size: 24px;
