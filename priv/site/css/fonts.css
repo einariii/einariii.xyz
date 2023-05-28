@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'Dela Gothic One';
+    src: url('../fonts/DelaGothicOne-Regular.ttf');
+}
+
+@font-face {
     font-family: 'IBMPlexSansThai';
     src: url('../fonts/IBMPlexSansThaiLooped-Regular.ttf');
 }
@@ -29,7 +34,7 @@
 }    
 
 .ibmplex {
-    font-family: 'IBMPlexSansThai';
+    font-family: 'IBM Plex Sans Thai';
 }
 
 .kodchasan {

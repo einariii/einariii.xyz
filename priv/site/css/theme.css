@@ -17,10 +17,18 @@ html {
 
 .squig {
   z-index: -1;
-  scale: 45%;
+  scale: 46%;
   rotate: 180deg;
-  margin-top: -425px;
+  margin-top: -500px;
   margin-right: -1100px;
+}
+
+.squig2 {
+  z-index: -10;
+  scale: 200%;
+  rotate: 0deg;
+  margin-top: -500px;
+  padding-top: -500px;
 }
 
 .squigreal {
@@ -49,7 +57,7 @@ html {
   font-family: 'Jost';
   text-align: left;
   font-size: 66px;
-  margin-top: -60px;
+  margin-top: -70px;
 }
 
 .subtitle2 {
@@ -77,9 +85,9 @@ html {
 }
 
 .intgo {
-  font-size: 48px;
+  font-size: 40px;
   display: inline-flex;
-  margin-top: -40px;
+  margin-top: -60px;
   margin-bottom: -40px;
 }
 
@@ -109,8 +117,13 @@ html {
 
 .slackside {
   font-family: 'Slackside One';
+  scale: 120%;
 }
 
 .zcool {
   font-family: 'ZCOOL QingKe HuangYou';
+}
+
+.dela {
+  font-family: 'Dela Gothic One';
 }

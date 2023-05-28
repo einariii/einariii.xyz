@@ -1,19 +1,21 @@
 ---
 layout: _layout.slime
 ---
+.intgo.dela
+  p 哈囉～ <p class="zcool">&ensp;h e j !</p><p class="slackside">&ensp;どうも。</p>
+<br /><br />
+h3.subtitle2 me llamo
 
 .squig
   img src="../images/dotgrid-23K06-505922.png"
+
 
 h1.title Einar Engström
 h3.subtitle <%= IO.inspect(":software_developer") %>
 h3.subtitle2 <%= IO.inspect(":computer_musician") %>
 
-.intgo.zcool
-  p 哈嘍～<p class="slackside">hej! どうも。</p>
-
 .intgo2
   p i code software, sounds,<br />+ software for sound.<br />i love the BEAM<br />& live elixir.<br />
   
 .intgo3
-  p go play with <a href="https://pipesines.fly.dev">pipesines</a><br />read code at <a href="https://github.com/einariii">github</a><br />and tune in to <a href="https://datafruits.fm/shows/ear-compiler-06022023">ear compiler</a>
+  p play with <a href="https://pipesines.fly.dev">pipesines</a><br />read code @ <a href="https://github.com/einariii">github</a><br />tune in to <a href="https://datafruits.fm/shows/ear-compiler-06022023">ear compiler</a>
