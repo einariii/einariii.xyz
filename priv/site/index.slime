@@ -1,19 +1,20 @@
 ---
 layout: _layout.slime
 ---
-.squig
-  img src="../images/dotgrid-23K06-505922.png"
+.flexit
+  .squig
+    img src="../images/dotgrid-23K06-505922.png"
 
-h1.title Einar Engström
-h3.subtitle <%= IO.inspect(":software_developer") %>
-h3.subtitle2 <%= IO.inspect(":computer_musician") %>
+  h1.title Einar Engström
+  h3.subtitle.flexit <%= IO.inspect(":software_developer") %>
+  h3.subtitle2.flexit <%= IO.inspect(":computer_musician") %>
 
-.intgo.dela
-  p 哈囉～ <p class="zcool">&ensp;h e j !</p><p class="slackside">&ensp;どうも。</p>
+  .intgo.dela
+    p 哈囉～ <p class="zcool">&ensp;h e j !</p><p class="slackside">&ensp;どうも。</p>
 
-.intgo2
-  p i code software, sounds,<br />+ software for sound.<br />i love the BEAM<br />& live elixir.<br />
-  
-.intgo3
-  p play with <a href="https://pipesines.fly.dev">pipesines</a><br />read code @ <a href="https://github.com/einariii">github</a><br />tune in to <a href="https://datafruits.fm/shows/ear-compiler-06022023">ear compiler</a><br />visit <a href="https://pipesines.bandcamp.com">the label</a>
-  <p class="zcool">blog incoming</p>
+  .intgo2
+    p i code software, sounds,<br />+ software for sound.<br />i love the BEAM<br />& live elixir.<br />
+    
+  .intgo3
+    p play with <a href="https://pipesines.fly.dev">pipesines</a><br />read code @ <a href="https://github.com/einariii">github</a><br />tune in to <a href="https://datafruits.fm/shows/ear-compiler-06022023">ear compiler</a><br />visit <a href="https://pipesines.bandcamp.com">the label</a>
+    <p class="zcool">blog incoming</p>
