@@ -7,13 +7,25 @@ a {
   color: #e9c31b;
 }
 
-.flexit {
-  scale: 100%;
-  display: flex;
-  flex-direction: column;
+h1 {
+  margin-bottom: -90px;
 }
 
-@media only screen and (max-width: 600px) {
+h3 {
+  font-size: 36px;
+}
+
+.flexit {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    margin-right: -50%;
+    text-align: justify;
+    max-width: 70%;
+}
+
+/* @media only screen and (max-width: 600px) {
   .flexit {
     scale: 75%;
   }
@@ -64,6 +76,9 @@ a {
 @media only screen and (min-width: 1200px) {
   .flexit {
     scale: 100%;
+    display: flex-col;
+    justify-content: center;
+    align-items: center;
   }
   .subtitle {
     margin-left: 0px;
@@ -71,7 +86,7 @@ a {
   .subtitle2 {
     margin-left: 0px;
   }
-}
+} */
 
 html {
   background-color: var(--c-white);
@@ -81,25 +96,37 @@ html {
   color: var(--c-black);
 }
 
+.blogdate {
+
+}
+
+.blogbody {
+  font-family: 'Jost';
+  text-align: justify;
+  font-size: 24px;
+  max-width: 50%;
+}
+
 .squig {
-  z-index: -1;
-  scale: 48%;
-  rotate: 180deg;
-  margin-top: -400px;
-  margin-right: -1100px;
+  scale: 8%;
+  rotate: 4deg;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  margin-right: -50%;
 }
 
 .squig2 {
   z-index: -10;
   scale: 200%;
   rotate: 0deg;
-  margin-top: -500px;
   padding-top: -500px;
 }
 
-.squigreal {
+.squigfooter {
   z-index: -1;
-  scale: 3%;
+  scale: 12%;
 }
 
 .squigbackup {
@@ -116,30 +143,19 @@ html {
   font-size: 128px;
   position: relative;
   white-space: normal;
-  margin-top: -1270px;
 }
 
-.subtitle {
+/* .subtitle {
   font-family: 'Jost';
   text-align: left;
   font-size: 66px;
-  margin-top: -70px;
 }
 
 .subtitle2 {
   font-family: 'Jost';
   text-align: left;
   font-size: 48px;
-  margin-top: -60px;
-}
-
-.subtitle3 {
-  font-family: 'Jost';
-  text-align: left;
-  font-size: 36px;
-  margin-top: -60px;
-  padding-bottom: 20px;
-}
+} */
 
 .main {
   max-width: 2000px;
@@ -161,8 +177,6 @@ html {
 .intgo {
   font-size: 40px;
   display: inline-flex;
-  margin-top: -60px;
-  margin-bottom: -40px;
 }
 
 .intgo2 {

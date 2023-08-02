@@ -1,0 +1,8 @@
+div
+  p.text-2xl.mb-2.zcool FUNCTIONAL MUSE: A BLOG
+  ul.list-disc.pl-6.space-y-2
+
+  div.jost
+    text &emsp;pipesines <br />
+    i.text-md 2023.08.02
+    .blogbody &emsp;a web application that transforms elixir into a musical instrument written with elixir, phoenix liveview, ecto/postgresql, html/css. interoperability with monaco editor and tone.js<br /><br />
