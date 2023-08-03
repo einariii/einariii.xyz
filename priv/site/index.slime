@@ -1,20 +1,28 @@
 ---
 layout: _layout.slime
 ---
+<hr class="breaker">
 .flexit
-  .squig
-    img src="../images/dotgrid-23K06-505922.png"
-
   h1.title Einar Engström
-  h3.subtitle.flexit <%= IO.inspect(":software_developer") %>
-  h3.subtitle2.flexit <%= IO.inspect(":computer_musician") %>
 
-  .intgo.dela
+  p.footer.identities <%= IO.inspect(":software_developer") %>&ensp;||&ensp;<%= IO.inspect(":computer_musician") %>&ensp;||&ensp;<%= IO.inspect(":nak_muay") %>
+  .langs.dela
     p 哈囉～ <p class="zcool">&ensp;h e j !</p><p class="slackside">&ensp;どうも。</p>
 
-  .intgo2
-    p i code software, sounds,<br />+ software for sound.<br />i love the BEAM<br />& live elixir.<br />
+
+  .intro
+    p i am a full-stack software engineer specializing in elixir and the BEAM ecosystem.<br />
+    p at <a href="https://kimia.software">kimia.software</a>, i also write ruby/rails and all sorts of javascript.
+    p when i'm away from the computer, i'm doing computer music.<br />
     
-  .intgo3
-    p play with <a href="https://pipesines.fly.dev">pipesines</a><br />read code @ <a href="https://github.com/einariii">github</a><br />tune in to <a href="https://datafruits.fm/shows/ear-compiler-06022023">ear compiler</a><br />visit <a href="https://pipesines.bandcamp.com">the label</a>
-    <p class="zcool">blog incoming</p>
+  .linx
+    p read code @ <a href="https://github.com/einariii">my github</a> and the <a href="https://github.com/einariii">kimia github</a><br />support independent developers @ <a href="https://downhost.com">downhost</a><br />play with <a href="https://pipesines.fly.dev">pipesines</a> |> visit <a href="https://pipesines.bandcamp.com">the label</a> |> tune in to <a href="https://datafruits.fm/shows/ear-compiler">ear compiler</a><br />learn elixir @ <a href="https://academy.dockyard.com/">dockyard academy</a>
+    <br />
+    <p class="zcool scroll">scroll ↓</p>  
+
+  = include(@env, "_includes/blog.slime")
+
+  footer
+    .squigfooter 
+      img src="../images/dotgrid-23K06-505922.png"
+  

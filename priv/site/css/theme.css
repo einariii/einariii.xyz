@@ -3,76 +3,6 @@
   --c-white: #222;
 }
 
-a {
-  color: #e9c31b;
-}
-
-.flexit {
-  scale: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-@media only screen and (max-width: 600px) {
-  .flexit {
-    scale: 75%;
-  }
-  .subtitle {
-    margin-left: -70px;
-  }
-  .subtitle2 {
-    margin-left: -70px;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  .flexit {
-    scale: 80%;
-  }
-  .subtitle {
-    margin-left: -60px;
-  }
-  .subtitle2 {
-    margin-left: -60px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .flexit {
-    scale: 85%;
-  }
-  .subtitle {
-    margin-left: -60px;
-  }
-  .subtitle2 {
-    margin-left: -60px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .flexit {
-    scale: 95%;
-  }
-  .subtitle {
-    margin-left: -30px;
-  }
-  .subtitle2 {
-    margin-left: -30px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .flexit {
-    scale: 100%;
-  }
-  .subtitle {
-    margin-left: 0px;
-  }
-  .subtitle2 {
-    margin-left: 0px;
-  }
-}
-
 html {
   background-color: var(--c-white);
   font-size: 48px;
@@ -81,25 +11,146 @@ html {
   color: var(--c-black);
 }
 
+a {
+  color: #2a9680;
+}
+
+h1 {
+  margin-bottom: -90px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.flexit {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  text-align: justify;
+  max-width: 70%;
+}
+
+@media (max-width: 640px) {
+  .breaker {
+    margin-top: 10%;
+    color: #2a9680;
+  }  
+  .identities {
+    font-size: 18px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    rotate: 270deg;
+    color: #2a9680;
+  }
+  .footer {
+    position: absolute;
+    margin-top: 66%;
+    right: 45%;
+  }
+  .intro {
+    font-size: 24px;
+    font-family: 'Jost';
+    text-align: justify;
+  }
+  .langs {
+    font-size: 18px;
+    display: inline-flex;     
+    margin-top: 25%;
+    margin-right: 50px;
+    color: #2a9680;
+  }  
+  .linx {
+    font-size: 14px;
+    font-family: 'Jost';
+  }  
+  .title {
+    font-family: 'Yellowtail';
+    text-align: left;
+    font-size: 54px;
+    position: relative;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 641px) {
+  .breaker {
+    color: #2a9680;
+  }   
+  .footer {
+    margin-top: 23%;
+    right: 77%;
+  }
+  .identities {
+    font-size: 18px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    rotate: 270deg;
+    color: #2a9680;
+  }
+  .langs {
+    font-size: 40px;
+    display: inline-flex;
+  }  
+  .intro {
+    font-size: 30px;
+    font-family: 'Jost';
+    text-align: justify;
+  }
+  .linx {
+    font-size: 18px;
+    font-family: 'Jost';
+  }  
+  .title {
+    font-family: 'Yellowtail';
+    text-align: left;
+    font-size: 128px;
+    position: relative;
+    white-space: nowrap;
+  }
+}
+
+
+.blogdate {
+  font-size: 16px;
+}
+
+.blogbody {
+  font-family: 'Jost';
+  text-align: justify;
+  font-size: 24px;
+  max-width: 99%;
+}
+
+.blogicon {
+  scale: 8%;
+  margin-right: 99%;
+  margin-top: -25%;
+  /* margin-bottom: -100px; */
+}
+
+.teal {
+  color: #2a9680;
+}
+
 .squig {
-  z-index: -1;
-  scale: 48%;
-  rotate: 180deg;
-  margin-top: -400px;
-  margin-right: -1100px;
+  scale: 8%;
+  rotate: 4deg;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  margin-right: -50%;
 }
 
 .squig2 {
   z-index: -10;
   scale: 200%;
   rotate: 0deg;
-  margin-top: -500px;
   padding-top: -500px;
 }
 
-.squigreal {
+.squigfooter {
   z-index: -1;
-  scale: 3%;
+  scale: 12%;
 }
 
 .squigbackup {
@@ -110,36 +161,25 @@ html {
   mix-blend-mode: exclusion;
 }
 
-.title {
+/* .title {
   font-family: 'Yellowtail';
   text-align: left;
   font-size: 128px;
   position: relative;
-  white-space: normal;
-  margin-top: -1270px;
-}
+  white-space: nowrap;
+} */
 
-.subtitle {
+/* .subtitle {
   font-family: 'Jost';
   text-align: left;
   font-size: 66px;
-  margin-top: -70px;
 }
 
 .subtitle2 {
   font-family: 'Jost';
   text-align: left;
   font-size: 48px;
-  margin-top: -60px;
-}
-
-.subtitle3 {
-  font-family: 'Jost';
-  text-align: left;
-  font-size: 36px;
-  margin-top: -60px;
-  padding-bottom: 20px;
-}
+} */
 
 .main {
   max-width: 2000px;
@@ -156,23 +196,6 @@ html {
 
 .ibmplex {
   font-family: 'IBMPlexSansThai';
-}
-
-.intgo {
-  font-size: 40px;
-  display: inline-flex;
-  margin-top: -60px;
-  margin-bottom: -40px;
-}
-
-.intgo2 {
-  font-size: 30px;
-  font-family: 'Jost';
-}
-
-.intgo3 {
-  font-size: 24px;
-  font-family: 'Jost';
 }
 
 .imgcontainer {
