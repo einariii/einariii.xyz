@@ -1,8 +1,16 @@
+<hr class="breaker">
 div
-  p.text-2xl.mb-2.zcool FUNCTIONAL MUSE: A BLOG
+  p.text-2xl.zcool FUNCTIONAL MUSE: A BLOG
   ul.list-disc.pl-6.space-y-2
 
   div.jost
-    text &emsp;pipesines <br />
-    i.text-md 2023.08.02
-    .blogbody &emsp;a web application that transforms elixir into a musical instrument written with elixir, phoenix liveview, ecto/postgresql, html/css. interoperability with monaco editor and tone.js<br /><br />
+    text.teal &emsp;"cell-driven development"<br />
+    i.blogdate.teal 2023.08.02
+    .blogbody &emsp;in retrospect, the talk i gave (with my partner-in-crime Marko Vukovic) at the last toronto elixir meetup was a bit of a missed opportunity. the title of "cell-driven development" was more whimsical than topical: we only called it that because our (self-appointed) task was just "to create smart cells in livebook." a few weeks on, the idea of CDD is growing on me.
+    <br />
+    .blogbody &emsp;what is CDD? cell-driven development is the abandonment to a specific potential: of small programs, improvised in a nourishing environment with no other commitment than to the organic emergence of a piece of software. start tiny, zoomed in, feed slow and aim to fluorish. welcome collaborators and together adress minor needs of the ecosystem. let developer practice crystallize at the cellular level. 
+    <br />
+    .blogbody &emsp;committing to give the talk was a declarative act: we publicly opened ourselves to building something in a particular, unfamiliar way. ultimately, we finished three different smart cells: a system performance graph; a tool to sonify your livebooks; and an observability platform for your fly.io virtual machines. we were pleased with this humble outcome, and invigorated to write more code than ever. there may be a future for CDD after all. 
+
+.blogicon 
+    img src="../images/einariii_marker.png"

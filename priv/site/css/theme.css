@@ -3,8 +3,16 @@
   --c-white: #222;
 }
 
+html {
+  background-color: var(--c-white);
+  font-size: 48px;
+  line-height: 1.5;
+  font-family: 'Jost';
+  color: var(--c-black);
+}
+
 a {
-  color: #e9c31b;
+  color: #2a9680;
 }
 
 h1 {
@@ -16,95 +24,111 @@ h3 {
 }
 
 .flexit {
-    margin: 0;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  text-align: justify;
+  max-width: 70%;
+}
+
+@media (max-width: 640px) {
+  .breaker {
+    margin-top: 10%;
+    color: #2a9680;
+  }  
+  .identities {
+    font-size: 18px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    rotate: 270deg;
+    color: #2a9680;
+  }
+  .footer {
     position: absolute;
-    top: 5%;
-    left: 25%;
-    margin-right: -50%;
+    margin-top: 66%;
+    right: 45%;
+  }
+  .intro {
+    font-size: 24px;
+    font-family: 'Jost';
     text-align: justify;
-    max-width: 70%;
-}
-
-/* @media only screen and (max-width: 600px) {
-  .flexit {
-    scale: 75%;
   }
-  .subtitle {
-    margin-left: -70px;
-  }
-  .subtitle2 {
-    margin-left: -70px;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  .flexit {
-    scale: 80%;
-  }
-  .subtitle {
-    margin-left: -60px;
-  }
-  .subtitle2 {
-    margin-left: -60px;
+  .langs {
+    font-size: 18px;
+    display: inline-flex;     
+    margin-top: 25%;
+    margin-right: 50px;
+    color: #2a9680;
+  }  
+  .linx {
+    font-size: 14px;
+    font-family: 'Jost';
+  }  
+  .title {
+    font-family: 'Yellowtail';
+    text-align: left;
+    font-size: 54px;
+    position: relative;
+    white-space: nowrap;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .flexit {
-    scale: 85%;
+@media (min-width: 641px) {
+  .breaker {
+    color: #2a9680;
+  }   
+  .footer {
+    margin-top: 23%;
+    right: 77%;
   }
-  .subtitle {
-    margin-left: -60px;
+  .identities {
+    font-size: 18px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    rotate: 270deg;
+    color: #2a9680;
   }
-  .subtitle2 {
-    margin-left: -60px;
+  .langs {
+    font-size: 40px;
+    display: inline-flex;
+  }  
+  .intro {
+    font-size: 30px;
+    font-family: 'Jost';
+    text-align: justify;
+  }
+  .linx {
+    font-size: 18px;
+    font-family: 'Jost';
+  }  
+  .title {
+    font-family: 'Yellowtail';
+    text-align: left;
+    font-size: 128px;
+    position: relative;
+    white-space: nowrap;
   }
 }
 
-@media only screen and (min-width: 992px) {
-  .flexit {
-    scale: 95%;
-  }
-  .subtitle {
-    margin-left: -30px;
-  }
-  .subtitle2 {
-    margin-left: -30px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .flexit {
-    scale: 100%;
-    display: flex-col;
-    justify-content: center;
-    align-items: center;
-  }
-  .subtitle {
-    margin-left: 0px;
-  }
-  .subtitle2 {
-    margin-left: 0px;
-  }
-} */
-
-html {
-  background-color: var(--c-white);
-  font-size: 48px;
-  line-height: 1.5;
-  font-family: 'Jost';
-  color: var(--c-black);
-}
 
 .blogdate {
-
+  font-size: 16px;
 }
 
 .blogbody {
   font-family: 'Jost';
   text-align: justify;
   font-size: 24px;
-  max-width: 50%;
+  max-width: 99%;
+}
+
+.blogicon {
+  scale: 8%;
+  margin-right: 99%;
+  margin-top: -25%;
+  /* margin-bottom: -100px; */
+}
+
+.teal {
+  color: #2a9680;
 }
 
 .squig {
@@ -137,13 +161,13 @@ html {
   mix-blend-mode: exclusion;
 }
 
-.title {
+/* .title {
   font-family: 'Yellowtail';
   text-align: left;
   font-size: 128px;
   position: relative;
-  white-space: normal;
-}
+  white-space: nowrap;
+} */
 
 /* .subtitle {
   font-family: 'Jost';
@@ -172,21 +196,6 @@ html {
 
 .ibmplex {
   font-family: 'IBMPlexSansThai';
-}
-
-.intgo {
-  font-size: 40px;
-  display: inline-flex;
-}
-
-.intgo2 {
-  font-size: 30px;
-  font-family: 'Jost';
-}
-
-.intgo3 {
-  font-size: 24px;
-  font-family: 'Jost';
 }
 
 .imgcontainer {
