@@ -6,7 +6,7 @@ div
   div.jost
     text.teal &emsp;"cell-driven development"<br />
     i.blogdate.teal 2023.08.02
-    .blogbody &emsp;in retrospect, the talk i gave (with my partner-in-crime Marko Vukovic) at the last toronto elixir meetup was a bit of a missed opportunity. the title of "cell-driven development" was more whimsical than topical: we only called it that because our (self-appointed) task was just "to create smart cells in livebook." a few weeks on, the idea of CDD is growing on me.
+    .blogbody &emsp;in retrospect, the talk i gave (with my partner-in-crime Marko Vukovic) at the last toronto elixir meetup was a bit of a missed opportunity. the title of "cell-driven development" was more whimsical than topical: we only called it that because our (self-appointed) task was just "to create smart cells in livebook." we didn't explore the concept to any meaningful depth. a few weeks on, the idea of CDD is growing on me.
     <br />
     .blogbody &emsp;what is CDD? cell-driven development is the abandonment to a specific potential: of small programs, improvised in a nourishing environment with no other commitment than to the organic emergence of a piece of software. start tiny, zoomed in, feed slow and aim to fluorish. welcome collaborators and together adress minor needs of the ecosystem. let developer practice crystallize at the cellular level. 
     <br />

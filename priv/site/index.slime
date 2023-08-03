@@ -5,7 +5,7 @@ layout: _layout.slime
 .flexit
   h1.title Einar Engström
 
-  p.footer.identities <%= IO.inspect(":software_developer") %>&ensp;||&ensp;<%= IO.inspect(":computer_musician") %>&ensp;||&ensp;<%= IO.inspect(":nak_muay") %>
+  p.footer.identities <%= IO.inspect(":functional_programming") %>&ensp;||&ensp;<%= IO.inspect(":algorhythm") %>&ensp;||&ensp;<%= IO.inspect(":muay_thai") %>
   .langs.dela
     p 哈囉～ <p class="zcool">&ensp;h e j !</p><p class="slackside">&ensp;どうも。</p>
 
@@ -16,7 +16,7 @@ layout: _layout.slime
     p when i'm away from the computer, i'm doing computer music.<br />
     
   .linx
-    p read code @ <a href="https://github.com/einariii">my github</a> and the <a href="https://github.com/einariii">kimia github</a><br />support independent developers @ <a href="https://downhost.com">downhost</a><br />play with <a href="https://pipesines.fly.dev">pipesines</a> |> visit <a href="https://pipesines.bandcamp.com">the label</a> |> tune in to <a href="https://datafruits.fm/shows/ear-compiler">ear compiler</a><br />learn elixir @ <a href="https://academy.dockyard.com/">dockyard academy</a>
+    p read code @ <a href="https://github.com/einariii">my github</a> and the <a href="https://github.com/kimia-software">kimia github</a><br />support independent developers @ <a href="https://downhost.com">downhost</a><br />play with <a href="https://pipesines.fly.dev">pipesines</a> |> visit <a href="https://pipesines.bandcamp.com">the label</a> |> tune in to <a href="https://datafruits.fm/shows/ear-compiler">ear compiler</a><br />learn elixir @ <a href="https://academy.dockyard.com/">dockyard academy</a>
     <br />
     <p class="zcool scroll">scroll ↓</p>  
 
