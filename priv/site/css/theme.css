@@ -108,7 +108,6 @@ h3 {
   }
 }
 
-
 .blogdate {
   font-size: 16px;
 }
@@ -116,7 +115,7 @@ h3 {
 .blogbody {
   font-family: 'Jost';
   text-align: justify;
-  font-size: 24px;
+  font-size: 20px;
   max-width: 99%;
 }
 
@@ -153,34 +152,6 @@ h3 {
   scale: 12%;
 }
 
-.squigbackup {
-  z-index: -1;
-  height: 700px;
-  width: 700px;
-  float: inline-start;
-  mix-blend-mode: exclusion;
-}
-
-/* .title {
-  font-family: 'Yellowtail';
-  text-align: left;
-  font-size: 128px;
-  position: relative;
-  white-space: nowrap;
-} */
-
-/* .subtitle {
-  font-family: 'Jost';
-  text-align: left;
-  font-size: 66px;
-}
-
-.subtitle2 {
-  font-family: 'Jost';
-  text-align: left;
-  font-size: 48px;
-} */
-
 .main {
   max-width: 2000px;
   font-size: 24px;
@@ -194,33 +165,8 @@ h3 {
   width: -5%;
 }
 
-.ibmplex {
-  font-family: 'IBMPlexSansThai';
-}
-
 .imgcontainer {
   background-image: url("../images/dotgrid-23K06-054139.png");
   background-repeat: repeat;
   background-size: contain;
-}
-
-.jost {
-  font-family: 'Jost';
-}
-
-.kodchasan {
-  font-family: 'Kodchasan';
-}
-
-.slackside {
-  font-family: 'Slackside One';
-  scale: 120%;
-}
-
-.zcool {
-  font-family: 'ZCOOL QingKe HuangYou';
-}
-
-.dela {
-  font-family: 'Dela Gothic One';
 }
