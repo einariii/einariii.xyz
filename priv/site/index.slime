@@ -5,7 +5,7 @@ layout: _layout.slime
 .flexit
   h1.title Einar Engström
 
-  p.footer.identities <%= IO.inspect(":functional_programming") %>&ensp;||&ensp;<%= IO.inspect(":algorhythm") %>&ensp;||&ensp;<%= IO.inspect(":muay_thai") %>
+  p.footer.identities <%= IO.inspect(":functional_programming") %>&ensp;&&&ensp;<%= IO.inspect(":algorhythm") %>&ensp;&&&ensp;<%= IO.inspect(":muay_thai") %>
   .langs.dela
     p 哈囉～ <p class="zcool">&ensp;h e j !</p><p class="slackside">&ensp;どうも。</p>
 
