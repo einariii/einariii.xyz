@@ -14,6 +14,7 @@ jobs:
           otp-version: '25'
           elixir-version: '1.14.5'
       - name: Build
+        run: mix deps.get
         run: mix still.compile
       - name: Publish
         uses: cloudflare/pages-action@1
