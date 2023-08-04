@@ -36,16 +36,19 @@ h3 {
     margin-top: 10%;
     color: #2a9680;
   }  
-  .identities {
+  .footer {
+    position: fixed;
+    margin-left: -208px;
+    margin-top: 388px;
+  }
+  .hobbies {
     font-size: 18px;
+  }
+  .identities {
+    font-size: 12px;
     font-family: 'ZCOOL QingKe HuangYou';
     rotate: 270deg;
     color: #2a9680;
-  }
-  .footer {
-    position: absolute;
-    margin-top: 66%;
-    right: 45%;
   }
   .intro {
     font-size: 24px;
@@ -69,6 +72,7 @@ h3 {
     font-size: 54px;
     position: relative;
     white-space: nowrap;
+    margin-top: 40px;
   }
 }
 
@@ -77,28 +81,42 @@ h3 {
     color: #2a9680;
   }   
   .footer {
-    margin-top: 23%;
-    right: 77%;
+    position: fixed;
+    margin-left: -260px;
+    margin-top: 453px;
+  }
+  .hobbies {
+    font-size: 24px;
   }
   .identities {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'ZCOOL QingKe HuangYou';
     rotate: 270deg;
     color: #2a9680;
   }
-  .langs {
-    font-size: 40px;
-    display: inline-flex;
-  }  
   .intro {
     font-size: 30px;
     font-family: 'Jost';
     text-align: justify;
   }
+  .langs {
+    font-size: 40px;
+    display: inline-flex;
+  }  
   .linx {
     font-size: 18px;
     font-family: 'Jost';
   }  
+  .title {
+    font-family: 'Yellowtail';
+    text-align: left;
+    font-size: 98px;
+    position: relative;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 769px) {
   .title {
     font-family: 'Yellowtail';
     text-align: left;
@@ -169,4 +187,25 @@ h3 {
   background-image: url("../images/dotgrid-23K06-054139.png");
   background-repeat: repeat;
   background-size: contain;
+}
+
+.jost {
+  font-family: 'Jost';
+}
+
+.kodchasan {
+  font-family: 'Kodchasan';
+}
+
+.slackside {
+  font-family: 'Slackside One';
+  scale: 120%;
+}
+
+.zcool {
+  font-family: 'ZCOOL QingKe HuangYou';
+}
+
+.dela {
+  font-family: 'Dela Gothic One';
 }
