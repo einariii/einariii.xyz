@@ -11,7 +11,7 @@ layout: _layout.slime
 
 
   .intro
-    p i am a full-stack software engineer specializing in elixir and the BEAM ecosystem.<br />
+    p i am a full-stack software engineer specializing in elixir, erlang, and the BEAM ecosystem.<br />
     p at <a href="https://kimia.software">kimia.software</a>, i also write ruby/rails and all sorts of javascript.
     p.hobbies when not programming, i'm doing computer music, learning a new human language, or training muay thai.<br />
     
