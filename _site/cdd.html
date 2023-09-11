@@ -1,0 +1,84 @@
+<!DOCTYPE html><html><head><title>einariii.xyz</title><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link rel="stylesheet" media=all href="/css/theme.css" />
+<link href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Kodchasan&family=Yellowtail&family=Jost:wght@200&family=ZCOOL+QingKe+HuangYou&family=Slackside+One&family=Dela+Gothic+One&display=swap" rel="stylesheet"></head><body><div class="flexit"><div class="jost"><text class="teal">&emsp;"cell-driven development"<br /></text><i class="blogdate teal">2023.08.02</i><div class="blogbody">&emsp;in retrospect, the talk i gave (with my partner-in-crime <a href="https://mvk.vc" target="_blank">Marko Vukovic</a>) at the last toronto elixir meetup was a bit of a missed opportunity. the title of "cell-driven development" was more whimsical than conceptual: we only called it that because our (self-appointed) task was just "to create <a href="https://hexdocs.pm/kino/Kino.SmartCell.html">smart cells</a> in <a href="https://livebook.dev/">livebook</a>." we did not explore the concept to any meaningful depth. a few weeks on, the idea of CDD is growing on me.</div><br /><div class="blogbody">&emsp;what is CDD? i'm not sure yet. but it seems to me that cell-driven development must appear in the developer's abandonment to a specific potential: of small programs, improvised in a nourishing environment with no other commitment than to the organic emergence of a piece of software. the sole rule is to start tiny, zoomed in, and feed the process slowly and with an aim to fluorish. external agents from the local ecology can and should participate in the evolution of a cell-driven product. the diet should not rely heavily on familiar recipes. seek out fresh tools and paradigms. welcome collaborators and together adress minor needs of the ecosystem. let coding practice begin to crystallize low, at the cellular level.</div><br /><div class="blogbody">&emsp;committing to the talk was a declarative act: to publicly build something in a spontaneous, unfamiliar way. but this was a necessary setting for anything resembling any natural outgrowth. ultimately, we finished three different smart cells: a <a href="https://github.com/mvkvc/kino_util/">system performance graph</a>; a <a href="https://github.com/einariii/kino_sound/">tool to sonify your livebooks</a>; and a <a href="https://github.com/mvkvc/kino_fly/">managing hub</a> for <a href="https://fly.io/docs/machines/">fly machines</a>. each of these commenced with the atomic component of the smart cell—an automatic program within another program used to construct other programs. for each, we had to learn new libraries and techniques, from the <a href="https://www.erlang.org/doc/man/os_mon_app.html">erlang standard library</a> and <a href="about:blank">vue.js</a> to <a href="https://vega.github.io/vega-lite/">vega lite</a> and <a href="https://howlerjs.com/">howler.js</a>. and each addressed some community need in a simple, modular fashion. we were at once pleased with this humble outcome, and invigorated to write more code than ever: all these cells had turned around and began to feed us, now. complete osmosis. there may be a future for CDD after all.</div></div><div class="blogicon"><img src="../images/einariii_marker.png"></div><p class="footer homelink"><a href="/">home</a></p></div></body></html><script>window.socket = new WebSocket('ws://' + location.host + '/ws');
+
+window.socket.onmessage = function(e) {
+  const event = JSON.parse(e.data);
+
+  if (event.type === 'reload') {
+    location.reload();
+  } else if (event.type === 'error') {
+    document.getElementsByTagName("body")[0].classList.add("dev-error-disable-scroll");
+    let node = document.createElement("div");
+    document.body.appendChild(node);
+    node.innerHTML = event.data;
+  }
+}
+
+window.socket.onopen = () => {
+  waitForConnection(() => window.socket.send("subscribe"), 300);
+};
+
+function waitForConnection(callback, interval) {
+  if (window.socket.readyState === 1) {
+    callback();
+  } else {
+    setTimeout(function () {
+      waitForConnection(callback, interval);
+    }, interval);
+  }
+}</script><style type="text/css">.dev-error-disable-scroll {
+    overflow: hidden;
+}
+
+.dev-error .dev-stack-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.dev-error, .dev-error * {
+  box-sizing: border-box;
+  color: #333 !important;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.dev-error {
+  background: #DA9F5D;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.dev-error code {
+  background: transparent !important;
+  font-family: monospace;
+}
+
+.dev-error pre {
+  background: #F3EAC3;
+  overflow-x: scroll;
+}
+
+.dev-error h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.dev-error h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.dev-error pre {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+}</style>

@@ -20,7 +20,17 @@ layout: _layout.slime
     <br />
     <p class="zcool scroll">scroll ↓</p>  
 
-  = include(@env, "_includes/blog.slime")
+  <hr class="breaker">
+  div
+    p.text-2xl.zcool FUNCTIONAL MUSE: A BLOG
+    ul.list-disc.pl-6.space-y-2
+  
+  / = include(@env, "/cdd.slime")
+  / <a href=@env "_functional_muse/cdd.slime">cell-driven development</a>
+  p
+  = link @env, "cell-driven development", to: "./cdd"
+  p
+  = link @env, "hello joe", to: "./hello_joe"
 
   footer
     .squigfooter 

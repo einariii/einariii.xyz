@@ -1,0 +1,86 @@
+<!DOCTYPE html><html><head><title>einariii.xyz</title><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link rel="stylesheet" media=all href="/css/theme.css" />
+<link href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Kodchasan&family=Yellowtail&family=Jost:wght@200&family=ZCOOL+QingKe+HuangYou&family=Slackside+One&family=Dela+Gothic+One&display=swap" rel="stylesheet"></head><body><div class="flexit"><div class="jost"><text class="teal">&emsp;"hello joe"<br /></text><i class="blogdate teal">2023.09.11</i><div class="blogbody">&emsp;it is no secret that the appeal of elixir is in large part the amalgam of two historical programming paradigms. at the risk of grotesque over-simplification, elixir is just <a href="https://erlang.org">erlang</a> re-written in <a href="https://www.ruby-lang.org/en/">ruby</a>. josé valim <a href="https://adolfont.medium.com/why-did-jos%C3%A9-valim-create-elixir-a6e210b7f2a1">is explicit on this point</a>. and why not? syntactically and semantically, ruby was crafted for <a href="https://rubyonrails.org/doctrine#optimize-for-programmer-happiness">developer happiness</a>. that happiness is real—just try <a href="https://ajnikrant.medium.com/method-chaining-or-daisy-chaining-in-ruby-31713b75ef30">method chaining</a>. erlang, meanwhile, is often remarked as a weird language, difficult to internalize for unfamiliar eyes.</div><br /><div class="blogbody">&emsp;but the weirdness of erlang—itself deriving from the great ancient wisdom of <a href="https://www.swi-prolog.org/">prolog</a>—brings me even more joy than ruby's prettiness. i don't agree that readability is only equivalent to familiarity (in ruby's case, to english-language grammar). i agree more with <a href="https://ferd.ca/">fred hebert</a>, who <a href="https://www.functionalgeekery.com/episode-114-fred-herbert/">celebrates</a> erlang for its "texture". clunkiness is something you can grasp, too.</div><br /><div class="blogbody">&emsp;and so but in recent months i've become very affectionate of the squarely pragmatic look and functional feel of this old secret-weapon of svensk telekom. i study the language daily, whenever i have a free moment, and am hell-bent on working in the language either professionally or privately, but certainly indefinitely. as i make these strides, i can also act as an advocate and archivist for the many technical and philosophical gems left by joe armstrong et al. one of my first actions is to create a github repository for the more peculiar erlang i have encountered. i am calling <a href="https://github.com/einariii" target="_blank">the repo</a> "hello joe" (in reference to the cult classic
+<a href="https://www.youtube.com/watch?v=BXmOlCy0oBM" target="_blank">"erlang: the movie"</a>), and will be adding to it as frequently as feasible. example program number one is from joe's <a href="https://joearms.github.io/">"non-linear personal web notebook"</a>: a "universal server". enjoy. keep programming weird.
+</div></div><div class="blogicon"><img src="../images/einariii_marker.png"></div><p class="footer homelink"><a href="/">home</a></p></div></body></html><script>window.socket = new WebSocket('ws://' + location.host + '/ws');
+
+window.socket.onmessage = function(e) {
+  const event = JSON.parse(e.data);
+
+  if (event.type === 'reload') {
+    location.reload();
+  } else if (event.type === 'error') {
+    document.getElementsByTagName("body")[0].classList.add("dev-error-disable-scroll");
+    let node = document.createElement("div");
+    document.body.appendChild(node);
+    node.innerHTML = event.data;
+  }
+}
+
+window.socket.onopen = () => {
+  waitForConnection(() => window.socket.send("subscribe"), 300);
+};
+
+function waitForConnection(callback, interval) {
+  if (window.socket.readyState === 1) {
+    callback();
+  } else {
+    setTimeout(function () {
+      waitForConnection(callback, interval);
+    }, interval);
+  }
+}</script><style type="text/css">.dev-error-disable-scroll {
+    overflow: hidden;
+}
+
+.dev-error .dev-stack-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.dev-error, .dev-error * {
+  box-sizing: border-box;
+  color: #333 !important;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.dev-error {
+  background: #DA9F5D;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.dev-error code {
+  background: transparent !important;
+  font-family: monospace;
+}
+
+.dev-error pre {
+  background: #F3EAC3;
+  overflow-x: scroll;
+}
+
+.dev-error h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.dev-error h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.dev-error pre {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+}</style>

@@ -44,6 +44,12 @@ h3 {
   .hobbies {
     font-size: 18px;
   }
+  .homelink {
+    font-size: 24px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    rotate: 270deg;
+    color: #2a9680;
+  }
   .identities {
     font-size: 12px;
     font-family: 'ZCOOL QingKe HuangYou';
@@ -87,6 +93,12 @@ h3 {
   }
   .hobbies {
     font-size: 24px;
+  }
+  .homelink {
+    font-size: 24px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    rotate: 270deg;
+    color: #2a9680;
   }
   .identities {
     font-size: 14px;

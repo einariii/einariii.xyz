@@ -1,0 +1,19 @@
+---
+layout: _layout.slime
+---
+
+.flexit
+  div.jost
+    text.teal &emsp;"hello joe"<br />
+    i.blogdate.teal 2023.09.11
+    .blogbody &emsp;it is no secret that the appeal of elixir is in large part the amalgam of two historical programming paradigms. at the risk of grotesque over-simplification, elixir is just <a href="https://erlang.org">erlang</a> re-written in <a href="https://www.ruby-lang.org/en/">ruby</a>. josé valim <a href="https://adolfont.medium.com/why-did-jos%C3%A9-valim-create-elixir-a6e210b7f2a1">is explicit on this point</a>. and why not? syntactically and semantically, ruby was crafted for <a href="https://rubyonrails.org/doctrine#optimize-for-programmer-happiness">developer happiness</a>. that happiness is real—just try <a href="https://ajnikrant.medium.com/method-chaining-or-daisy-chaining-in-ruby-31713b75ef30">method chaining</a>. erlang, meanwhile, is often remarked as a weird language, difficult to internalize for unfamiliar eyes. 
+    <br />
+    .blogbody &emsp;but the weirdness of erlang—itself deriving from the great ancient wisdom of <a href="https://www.swi-prolog.org/">prolog</a>—brings me even more joy than ruby's prettiness. i don't agree that readability is only equivalent to familiarity (in ruby's case, to english-language grammar). i agree more with <a href="https://ferd.ca/">fred hebert</a>, who <a href="https://www.functionalgeekery.com/episode-114-fred-herbert/">celebrates</a> erlang for its "texture". clunkiness is something you can grasp, too. 
+    <br />
+    .blogbody &emsp;and so but in recent months i've become very affectionate of the squarely pragmatic look and functional feel of this old secret-weapon of svensk telekom. i study the language daily, whenever i have a free moment, and am hell-bent on working in the language either professionally or privately, but certainly indefinitely. as i make these strides, i can also act as an advocate and archivist for the many technical and philosophical gems left by joe armstrong et al. one of my first actions is to create a github repository for the more peculiar erlang i have encountered. i am calling <a href="https://github.com/einariii" target="_blank">the repo</a> "hello joe" (in reference to the cult classic 
+        <a href="https://www.youtube.com/watch?v=BXmOlCy0oBM" target="_blank">"erlang: the movie"</a>), and will be adding to it as frequently as feasible. example program number one is from joe's <a href="https://joearms.github.io/">"non-linear personal web notebook"</a>: a "universal server". enjoy. keep programming weird.   
+
+  .blogicon 
+    img src="../images/einariii_marker.png"
+
+  p.footer.homelink = link @env, "home", to: "/"
